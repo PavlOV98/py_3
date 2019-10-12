@@ -1,5 +1,5 @@
-a=1
-b=1
+a = 1
+b = 1
 
 def f():
     global a, b
@@ -32,7 +32,7 @@ def tower():
         c.append(buf)
         print ("1-3")
     else:
-        for i in range (int(n/2)):
+        for i in range(int(n/2)):
             buf=a.pop(-1)
             b.append(buf)
 
